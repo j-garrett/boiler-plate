@@ -13,7 +13,7 @@ render(
   >
     <div>
       <h3>Hello World!</h3>
-      <p>This SHOULD hot reload...</p>
+      <p>This MUST hot reload...</p>
     </div>
   </Provider>,
   document.getElementById('root')
