@@ -7,6 +7,13 @@ module.exports = {
     path: path.join(__dirname, './dist'),
     filename: 'bundle.js',
   },
+  'webpack-dev-server': {
+    options: {
+      hot: true,
+      publicPath: '/dist/',
+      historyApiFallback: true,
+    },
+  },
   devtool: 'source-map',
   module: {
     loaders: [

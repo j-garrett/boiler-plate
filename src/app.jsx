@@ -2,18 +2,15 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-// import cardReducers from './reducers';
+import cardReducers from './reducers';
 // import Big2App from './components/Big2App';
 
-// const store = createStore(cardReducers);
+const store = createStore(cardReducers);
 
 render(
-  <Provider
-
-  >
+  <Provider store={store}>
     <div>
       <h3>Hello JOE!</h3>
-
       <p>Will this hot reload...?</p>
     </div>
   </Provider>,
