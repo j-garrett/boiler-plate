@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
 import cardReducers from './reducers';
-import Big2AppContainer from './components/Big2App.jsx';
+import Big2AppContainer from './components/Big2App';
 
 const store = createStore(cardReducers);
 
@@ -23,10 +23,6 @@ const Root = () => (
     </Router>
   </Provider>
 );
-
-Root.propTypes = {
-  store: React.PropTypes.Func,
-};
 
 export default Root;
 
