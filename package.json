@@ -7,7 +7,7 @@
     "dev": "webpack-dev-server --inline --hot --output-public-path=/dist/",
     "test": "test",
     "build": "webpack -p",
-    "start": "nodemon server/server.js"
+    "start": "node server/server.js"
   },
   "repository": {
     "type": "git",
