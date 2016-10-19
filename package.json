@@ -1,0 +1,25 @@
+{
+  "name": "big2",
+  "version": "0.0.1",
+  "description": "Big 2 - The Card Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jon-is-learning/big2.git"
+  },
+  "keywords": [
+    "card",
+    "game",
+    "cards",
+    "games"
+  ],
+  "author": "Jon Garrett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jon-is-learning/big2/issues"
+  },
+  "homepage": "https://github.com/jon-is-learning/big2#readme"
+}
