@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
 
@@ -11,4 +12,7 @@ app.get('/*', (req, res) => {
   res.sendFile(home);
 });
 
-app.listen(3000);
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log('app listening on port ', port);
+});
