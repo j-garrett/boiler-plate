@@ -37,4 +37,10 @@ module.exports = {
         JSON.stringify(process.env.NODE_ENV || 'development'),
     }),
   ],
+  externals: {
+    'cheerio': 'window',
+    'react/addons': true,
+    'react/lib/ExecutionEnvironment': true,
+    'react/lib/ReactContext': true
+  },
 };
