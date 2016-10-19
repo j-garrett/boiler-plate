@@ -1,0 +1,9 @@
+# Environment Variables
+.env
+
+# Compiled Files
+dist/bundle.js
+dist/bundle.js.map
+
+# Node Modules
+node_modules/
