@@ -4,7 +4,7 @@
   "description": "Big 2 - The Card Game",
   "main": "app.jsx",
   "scripts": {
-    "dev": "webpack-dev-server --inline",
+    "dev": "webpack-dev-server --inline --hot --output-public-path=/dist/",
     "test": "test",
     "build": "webpack -p",
     "start": "/server/server.js"
@@ -42,7 +42,10 @@
     "webpack": "^1.13.2"
   },
   "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.8.1",
     "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
     "webpack-dev-server": "^1.16.2"
   }
 }
