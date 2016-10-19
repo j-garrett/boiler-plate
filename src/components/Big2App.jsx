@@ -27,8 +27,8 @@ class Big2App extends React.Component {
 }
 
 Big2App.propTypes = {
-  username: React.PropTypes.String,
-  changeUsername: React.PropTypes.Func,
+  username: React.PropTypes.string,
+  changeUsername: React.PropTypes.func,
 };
 
 const Big2AppContainer = connect(
