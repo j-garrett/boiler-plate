@@ -6,6 +6,6 @@
   },
   "extends": "airbnb",
   "rules": {
-
+    no-shadow: ["error", {"allow": ["store"] }]
   }
 }

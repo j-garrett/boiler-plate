@@ -10,7 +10,7 @@ module.exports = {
   'webpack-dev-server': {
     options: {
       hot: true,
-      publicPath: '/dist/',
+      // publicPath: '/dist/',
       historyApiFallback: true,
     },
   },
