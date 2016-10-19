@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --output-public-path=/dist/",
     "test": "test",
-    "build": "webpack -p",
+    "postinstall": "webpack -p",
     "start": "node server/server.js"
   },
   "repository": {
