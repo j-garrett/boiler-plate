@@ -10,6 +10,7 @@ Uses webpack with postinstall hooks to deploy with Heroku immediately.
 
 ###Local Development
 _After forking/cloning:_
+
 1. `npm install`
 2. `npm run dev`
 3. Navigate to [http://localhost:8080/dist/](http://localhost:8080/dist/)
