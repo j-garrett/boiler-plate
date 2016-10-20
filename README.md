@@ -14,6 +14,8 @@ _After forking/cloning:_
 2. `npm run dev`
 3. Navigate to [http://localhost:8080/dist/](http://localhost:8080/dist/)
 
+**All tests must end with -test.js**
+
 ###Deployment
 1. [Set up Heroku for your command line](https://devcenter.heroku.com/articles/heroku-command-line)
 2. `heroku create`
