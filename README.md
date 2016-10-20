@@ -20,7 +20,7 @@ _After forking/cloning:_
 2. `heroku create`
 3. `git push heroku master`
 4. `heroku apps:rename YOUR_APP_NAME_HERE`
-5. `heroku config:set NODE_ENV=production
+5. `heroku config:set NODE_ENV=production`
 6. Navigate to YOUR_APP_NAME_HERE.herokuapp.com
 7. Optional: set up Automatic Deploys by connecting your GitHub account's deploy/master branch to your Heroku app via your [Heroku Dashboard](https://dashboard.heroku.com)
 
