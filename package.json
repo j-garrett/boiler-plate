@@ -1,8 +1,8 @@
 {
-  "name": "big2",
-  "version": "0.0.1",
-  "description": "Big 2 - The Card Game",
-  "main": "app.jsx",
+  "name": "Boiler Plate - React/Redux w/ Express",
+  "version": "0.1.0",
+  "description": "Easy way to spin up React apps and deploy them to Heroku.",
+  "main": "src/app.jsx",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --output-public-path=/dist/",
     "test": "mocha test/.setup.js test/**/*-test.js",
@@ -14,17 +14,18 @@
     "url": "git+https://github.com/jon-is-learning/big2.git"
   },
   "keywords": [
-    "card",
-    "game",
-    "cards",
-    "games"
+    "react",
+    "redux",
+    "express",
+    "boiler plate",
+    "heroku"
   ],
   "author": "Jon Garrett",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jon-is-learning/big2/issues"
+    "url": "https://github.com/jon-is-learning/boiler-plate/issues"
   },
-  "homepage": "https://github.com/jon-is-learning/big2#readme",
+  "homepage": "https://github.com/jon-is-learning/boiler-plate#readme",
   "dependencies": {
     "babel-core": "^6.17.0",
     "babel-eslint": "^7.0.0",

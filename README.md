@@ -42,3 +42,4 @@ TODO:
 Flesh out Redux structure
 Flesh out routing
 Add baseline tests
+Turn deployment into npm script
