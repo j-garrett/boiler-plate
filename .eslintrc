@@ -6,8 +6,7 @@
   },
   "extends": ["airbnb"],
   "plugins": [
-    "react",
-    "react/recommended"
+    "react"
   ],
   "rules": {
     no-shadow: ["error", {"allow": ["store"] }]
