@@ -4,7 +4,11 @@
     "browser": true,
     "node": true
   },
-  "extends": "airbnb",
+  "extends": ["airbnb"],
+  "plugins": [
+    "react",
+    "react/recommended"
+  ],
   "rules": {
     no-shadow: ["error", {"allow": ["store"] }]
   }
