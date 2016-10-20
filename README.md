@@ -1,12 +1,11 @@
 Jon's Boiler Plate
 ------
 
-###Goal
+##Goal
 Get a project up and running quickly with this simple boilerplate.
 Uses webpack with postinstall hooks to deploy with Heroku immediately.
 
-###Setup
-
+##Setup
 
 ###Local Development
 _After forking/cloning:_
@@ -26,8 +25,20 @@ _After forking/cloning:_
 
 [Heroku reference](https://devcenter.heroku.com/articles/git)
 
-###Includes
+##Includes
 
 - React/Redux
 - Mocha/Chai/Enzyme Test Suite
 
+##Notes
+Configuration of webpack will also minify code and switch React into production mode when deployed to Heroku
+
+If you would like to round out the quality of this boiler plate, please do!
+
+Using eslint preset to guide styling.
+
+TODO:
+----
+Flesh out Redux structure
+Flesh out routing
+Add baseline tests
